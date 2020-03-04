@@ -1,0 +1,163 @@
+body, html{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.page-content{
+    background: #f2f2f2;
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+.resume-content{
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    background: #FFF;
+    width: 50vw;
+    height: 50vw;
+    max-width: 800px;
+    max-height: 800px;
+    min-width: 500px;
+    min-height: 500px;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-rows: 24fr 12fr 48fr;
+}
+
+.presentation{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+.presentation div{
+    display: grid;
+}
+
+.my-name{
+    color: #ecf0f1;
+    font-family: 'Open Sans','Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 150%;
+    font-weight: 700;
+    text-align: center;
+    align-self: end;
+    justify-self: center;
+    line-height: 1.2857em;
+    box-sizing: inherit;
+}
+
+
+.navegation-bar{
+    display: grid;
+    border-top: 1px solid #DCDCDC;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.navegation-bar div{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-self: center;
+    justify-self: center;
+}
+
+.navegation-bar div button{
+    outline: none;
+    font-weight: 400;
+    align-self: center;
+    justify-self: center;
+    border: 0;
+    width: 60%;
+    height: 60%;
+    background: #34495e;
+    color: #ecf0f1;
+    font-family: 'Open Sans','Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+.about-me{
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    padding: 10px 5%;
+    font-family: 'Open Sans','Helvetica Neue',Arial,Helvetica,sans-serif;
+    line-height: 1.4285em;
+    font-weight: 200;
+}
+
+.name{
+    background-color: #34495e;
+    border-radius: 5px 20px 20px 0;
+}
+
+.occupation{
+    font-family: 'Open Sans','Helvetica Neue',Arial,Helvetica,sans-serif;
+    line-height: 1.4285em;
+    font-weight: 200;
+    color: white;
+    align-self: center;
+    justify-self: center;
+}
+
+.view-content{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+.project-rectangle{
+    max-height: 100px;
+    border-radius: 3px;
+    padding: 16px;
+    display: grid;
+    background-color: #fff;
+    border: 1px solid #d1d5da;
+    height: 30%;
+    width: 70%;
+    justify-self: center;
+    align-self: center;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.project-title-session{
+    display: grid;
+    grid-template-columns:1fr;
+}
+
+.project-title{
+    display: grid;
+    align-self: center;
+    grid-template-columns: 8fr 1fr 96fr;
+}
+
+.project-title svg{
+    align-self: center;
+}
+
+.project-title a{
+    align-self: center;
+    color:#0366d6;
+    font-weight: 600;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;;
+    font-size: 14px;
+}
+
+.description{
+    color: #586069;
+    font-family: sans-serif;
+    font-size: 12px!important;
+    line-height: 1.5;
+}
+
+.icon-color{
+    fill: #586069;
+}
+
+.repo-language-color {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
