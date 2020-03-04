@@ -2,6 +2,7 @@ body, html{
     margin: 0;
     width: 100%;
     height: 100%;
+    background: #f2f2f2;
 }
 
 .page-content{
@@ -19,8 +20,8 @@ body, html{
     height: 50vw;
     max-width: 800px;
     max-height: 800px;
-    min-width: 500px;
-    min-height: 500px;
+    min-width: 618px;
+    min-height: 618px;
     align-self: center;
     justify-self: center;
     display: grid;
@@ -100,7 +101,7 @@ body, html{
     justify-self: center;
 }
 
-.view-content{
+.view-content1{
     display: grid; 
     grid-template-columns: 1fr 1fr;
 }
@@ -160,4 +161,74 @@ body, html{
     width: 12px;
     height: 12px;
     border-radius: 50%;
+}
+
+.view-content2{
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+}
+
+.social-media-session{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.social-media-session div{
+    display: grid;
+}
+
+.social-media-session div a{
+    color: black;
+    font-family: 'Open Sans','Helvetica Neue',Arial,Helvetica,sans-serif;
+    line-height: 1.4285em;
+    font-weight: 200;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    text-decoration: none;
+}
+
+.email-session{
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+    align-self: center;
+    display: grid;
+}
+
+.email-session div{
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+
+.email-session div span{
+    align-self: center;
+    justify-self: center;
+    font-weight: 300;
+    color: #586069;
+    font-family: 'Open Sans','Helvetica Neue',Arial,Helvetica,sans-serif;;
+    font-size: 16px;
+    position: relative;
+    bottom: 35%;
+}
+
+.email-session div svg{
+    padding-bottom: 10px;
+    align-self: center;
+    justify-self: center;
+    height: 50px;
+}
+
+.view-content3{
+    text-align: center;
+    width:100%;
+    height: 100%;
+}
+
+.view-content3 img{
+    height: 150px;
+    margin: 2%;
+    display: inline-block;
 }
