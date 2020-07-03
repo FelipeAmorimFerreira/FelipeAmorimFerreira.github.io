@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap" rel="stylesheet"> 
     <script src="interaction.js"></script>
     <title>Resume</title>
 </head>
@@ -12,7 +12,7 @@
     <div class="page-content">
         <div id="resume-content" class="resume-content">
             <div class="presentation">
-                <div class="name"><span class="my-name">FELIPE<br/>AMORIM</span> <span class="occupation">student</span></div>
+                <div class="name"><span class="my-name">FELIPE<br/>AMORIM</span> <span class="occupation">Student</span></div>
                 <div class="about-me">
                     I've been studying since early 2018 for a B.S. in Computer Science in the Department
                      of Electrical Engineering and Computer Science at the Federal University of Campina Grande.
@@ -96,23 +96,29 @@
 
 <template id="Experience">
     <div class="view-content3">
-        <div>
-            <img src="./images/react.png" title="React" class="exp-img">
+        <div class="title-wrapper">
+            <span>TECHNOLOGIES</span>
         </div>
-        <div>
-            <img src="./images/node.png" title="NodeJs" class="exp-img">
-        </div>
-        <div>
-            <img src="./images/flask.png" title="Flask" class="exp-img">
-        </div>
-        <div>
-            <img src="./images/spring.png" title="Spring" class="exp-img">
-        </div>
-        <div>
-            <img src="./images/graphql.png" title="GraphQL" class="exp-img">
-        </div>
-        <div>
-            <img src="./images/vue.png" title="Vue.js" class="exp-img">
+        <div class="images-wrapper">
+            <div class="image-wrapper">
+                <img src="./images/react.png" title="React" class="exp-img">
+            </div>
+            <div class="image-wrapper">
+                <img src="./images/node.png" title="NodeJs" class="exp-img">
+            </div>
+            <div class="image-wrapper">
+                <img src="./images/flask.png" title="Flask" class="exp-img">
+            </div>
+            <div class="image-wrapper">
+                <img src="./images/spring.png" title="Spring" class="exp-img">
+            </div>
+            <div class="image-wrapper">
+                <img src="./images/graphql.png" title="GraphQL" class="exp-img">
+            </div>
+            <div class="image-wrapper">
+                <img src="./images/vue.png" title="Vue.js" class="exp-img">
+            </div>
+
         </div>
     </div>
 </template>
